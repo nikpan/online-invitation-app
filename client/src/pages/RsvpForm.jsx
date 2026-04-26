@@ -109,9 +109,9 @@ export default function RsvpForm() {
               <label className="label">Your response *</label>
               <div className="grid grid-cols-3 gap-2">
                 {[
-                  { value: 'attending', label: '✓ Attending', color: 'border-green-500 bg-green-50 text-green-700' },
-                  { value: 'maybe', label: '? Maybe', color: 'border-yellow-500 bg-yellow-50 text-yellow-700' },
-                  { value: 'declined', label: '✗ Can\'t make it', color: 'border-red-400 bg-red-50 text-red-600' },
+                  { value: 'attending', label: 'Yes', color: 'border-green-500 bg-green-50 text-green-700' },
+                  { value: 'maybe', label: 'Maybe', color: 'border-yellow-500 bg-yellow-50 text-yellow-700' },
+                  { value: 'declined', label: 'No', color: 'border-red-400 bg-red-50 text-red-600' },
                 ].map((opt) => (
                   <label
                     key={opt.value}
